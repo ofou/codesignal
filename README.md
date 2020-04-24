@@ -1,2 +1,2 @@
 # codesignal
-My Codesignal solutions
+My Codesignal solutions updated
