@@ -1,14 +1,18 @@
 # 👨‍💻 codesignal
 
-My `codesignal` solutions! I've used the platform in order to improve my Computer Science & programming skills. It took me about **1000 hours** to finish the Arcade track plus the Interview Practice. I tracked my time coding using [`rescuetime`](rescuetime.com/rp/ofou/signup/solo/lite):
+> _“For the things we have to learn before we can do them, we learn by doing them.”_
+> ― Aristotle, _The Nicomachean Ethics_
 
-<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
+Here are my [`codesignal`](https://app.codesignal.com/profile/ofou) solutions! I'm using the platform in order to improve my Computer Science & Coding skills. It has took me about **100 hours** so far to reach level 26 and I'm eager to finish the full Arcade track plus the Interview Practice. I'm tracking my coding time using [`rescuetime`](rescuetime.com/rp/ofou/signup/solo/lite). If you have any comments or suggestions about my code, please let me know, I'll very happy reciving any kind of feedback!
+
+I'm also using [`exercism`](https://github.com/ofou/exercism) and [`freeCodeCamp`](https://www.freecodecamp.org/ofou), both are great ways to improve your skills futher using the command line or web browser.
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=4 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
 - [Intro (7/60)](#intro-760)
 - [Databases (51/84)](#databases-5184)
-      - [projectList](#projectlistarcadedbprojectlistsql)
 - [The Core (5/162)](#the-core-5162)
 - [Python (0/92)](#python-092)
 - [Graphs (0/66)](#graphs-066)
@@ -52,6 +56,43 @@ CREATE PROCEDURE projectList()
 BEGIN
     SELECT project_name, team_lead, income FROM Projects;
 END
+```
+
+##### [countriesSelection](/arcade/db/countriesSelection.sql)
+
+```sql
+CREATE PROCEDURE countriesSelection()
+BEGIN
+  SELECT name, continent, population FROM countries WHERE continent = "Africa";
+END
+```
+
+##### [monthlyScholarships](/arcade/db/monthlyScholarships.sql)
+
+```sql
+CREATE PROCEDURE monthlyScholarships()
+BEGIN
+  SELECT id, SUM(scholarship)/12 as "scholarship" FROM scholarships GROUP BY id;
+END
+```
+
+##### [projectsTeam](/arcade/db/projectsTeam.sql)
+
+```sql
+CREATE PROCEDURE projectsTeam()
+BEGIN
+  SELECT name from projectLog group by name ORDER BY name ASC;
+END
+```
+
+##### [automaticNotifications](/arcade/db/automaticNotifications.sql)
+
+```sql
+CREATE PROCEDURE automaticNotifications()
+    SELECT email
+    FROM users
+    WHERE role NOT IN ("admin", "premium")
+    ORDER BY email;
 ```
 
 ## The Core (5/162)
