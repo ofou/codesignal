@@ -1,9 +1,9 @@
 # 👨‍💻 codesignal
 
-> _“For the things we have to learn before we can do them, we learn by doing them.”_
+> **“For the things we have to learn before we can do them, we learn by doing them.”** \
 > ― Aristotle, _The Nicomachean Ethics_
 
-Here are my [`codesignal`](https://app.codesignal.com/profile/ofou) solutions! I'm using the platform in order to improve my Computer Science & Coding skills. It has took me about **100 hours** so far to reach level 26 and I'm eager to finish the full Arcade track plus the Interview Practice. I'm tracking my coding time using [`rescuetime`](rescuetime.com/rp/ofou/signup/solo/lite). If you have any comments or suggestions about my code, please let me know, I'll very happy reciving any kind of feedback!
+Here are my [`codesignal`](https://app.codesignal.com/profile/ofou) solutions! I'm using its platform in order to improve my Computer Science & Coding skills. It has took me about **100 hours** so far to reach `level 26` and I'm eager to finish the full Arcade track plus the Interview Practice. I'm tracking my coding time using [`rescuetime`](rescuetime.com/rp/ofou/). If you have any comments or suggestions about my code, please open an issue, I'll very happy reciving any kind of feedback!
 
 I'm also using [`exercism`](https://github.com/ofou/exercism) and [`freeCodeCamp`](https://www.freecodecamp.org/ofou), both are great ways to improve your skills futher using the command line or web browser.
 
@@ -44,6 +44,8 @@ I'm also using [`exercism`](https://github.com/ofou/exercism) and [`freeCodeCamp
     - [Geometry](#geometry)
 
 <!-- /code_chunk_output -->
+
+---
 
 ## Intro (7/60)
 
