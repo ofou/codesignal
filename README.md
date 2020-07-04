@@ -939,6 +939,48 @@ END
 
 ## **The Core (5/162)**
 
+##### [addTwoDigits](/arcade/db/intro-gates/addTwoDigits.py)
+
+```python
+def addTwoDigits(n):
+    return sum(list(map(int,str(n))))
+```
+
+##### [largestNumber](/arcade/db/intro-gates/largestNumber.py)
+
+```python
+def largestNumber(n):
+    number = str("9") * n
+    return int(number)
+```
+
+##### [candies](/arcade/db/intro-gates/candies.py)
+
+```python
+def candies(n, m):
+    return (m//n) * n
+```
+
+##### [seatsInTheater](/arcade/db/intro-gates/seatsInTheater.py)
+
+```python
+def seatsInTheater(nCols, nRows, col, row):
+    x = abs(nRows-row)
+    y = abs(nCols-col+1)
+    return x*y
+```
+
+##### [maxMultiple](/arcade/db/intro-gates/maxMultiple.py)
+
+```python
+def maxMultiple(divisor, bound):
+    result = 0
+    for N in range(1, bound+1):
+        if N % divisor == 0:
+            result = N
+    return result
+```
+
 ## **Python (0/92)**
 
 ## **Graphs (0/66)**
