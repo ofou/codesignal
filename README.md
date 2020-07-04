@@ -970,6 +970,22 @@ def seatsInTheater(nCols, nRows, col, row):
     return x*y
 ```
 
+##### [matrixElementsSum](arcade/intro/level-2/matrixElementsSum.py)
+
+```python
+def matrixElementsSum(matrix):
+    sum = 0
+    ghost = []
+    for i, row in enumerate(matrix):
+        for j, value in enumerate(row):
+            if value == 0:
+                ghost.append(j)
+            if(j in ghost):
+                continue
+            sum += value
+    return sum
+```
+
 ##### [maxMultiple](/arcade/db/intro-gates/maxMultiple.py)
 
 ```python
