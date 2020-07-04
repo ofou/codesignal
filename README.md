@@ -12,13 +12,13 @@ I'm also using [`exercism`](https://github.com/ofou/exercism) and [`freeCodeCamp
 <!-- code_chunk_output -->
 
 1. [**Intro (7/60)**](#intro-760)
-            1. [add](#addarcadeintrolevel-1addpy)
-            1. [centuryFromYear](#centuryfromyeararcadeintrolevel-1centuryfromyearpy)
-            1. [checkPalindrome](#checkpalindromearcadeintrolevel-1checkpalindromepy)
-            2. [adjacentElementsProduct](#adjacentelementsproductarcadeintrolevel-2adjacentelementsproductpy)
-            3. [almostIncreasingSequence](#almostincreasingsequencearcadeintrolevel-2almostincreasingsequencepy)
-            4. [makeArrayConsecutive2](#makearrayconsecutive2arcadeintrolevel-2makearrayconsecutive2py)
-            5. [shapeArea](#shapeareaarcadeintrolevel-2shapeareapy)
+            1. [add](#add)
+            1. [centuryFromYear](#centuryfromyear)
+            1. [checkPalindrome](#checkpalindrome)
+            2. [adjacentElementsProduct](#adjacentelementsproduct)
+            3. [almostIncreasingSequence](#almostincreasingsequence)
+            4. [makeArrayConsecutive2](#makearrayconsecutive2)
+            5. [shapeArea](#shapearea)
 2. [**Databases (51/84)**](#databases-5184)
             1. [projectList](#projectlistarcadedbwelcome-to-the-tableprojectlistsql)
             1. [countriesSelection](#countriesselectionarcadedbwelcome-to-the-tablecountriesselectionsql)
@@ -107,7 +107,9 @@ I'm also using [`exercism`](https://github.com/ofou/exercism) and [`freeCodeCamp
 
 ## **Intro (7/60)**
 
-##### [add](/arcade/intro/level-1/add.py)
+##### add
+
+[source](/arcade/intro/level-1/add.py)
 
 ```python
 def add(param1, param2):
@@ -115,7 +117,9 @@ def add(param1, param2):
 
 ```
 
-##### [centuryFromYear](/arcade/intro/level-1/centuryFromYear.py)
+##### centuryFromYear
+
+[source](/arcade/intro/level-1/centuryFromYear.py)
 
 ```python
 def centuryFromYear(year):
@@ -126,14 +130,18 @@ def centuryFromYear(year):
 
 ```
 
-##### [checkPalindrome](/arcade/intro/level-1/checkPalindrome.py)
+##### checkPalindrome
+
+[source](/arcade/intro/level-1/checkPalindrome.py)
 
 ```python
 def checkPalindrome(inputString):
     return inputString[::-1] == inputString
 ```
 
-##### [adjacentElementsProduct](/arcade/intro/level-2/adjacentElementsProduct.py)
+##### adjacentElementsProduct
+
+[source](/arcade/intro/level-2/adjacentElementsProduct.py)
 
 ```python
 def adjacentElementsProduct(inputArray):
@@ -145,7 +153,9 @@ def adjacentElementsProduct(inputArray):
     return max(candidates)
 ```
 
-##### [almostIncreasingSequence](/arcade/intro/level-2/almostIncreasingSequence.py)
+##### almostIncreasingSequence
+
+[source](/arcade/intro/level-2/almostIncreasingSequence.py)
 
 ```python
 def almostIncreasingSequence(sequence):
@@ -166,7 +176,9 @@ def almostIncreasingSequence(sequence):
     return True
 ```
 
-##### [makeArrayConsecutive2](/arcade/intro/level-2/makeArrayConsecutive2.py)
+##### makeArrayConsecutive2
+
+[source](/arcade/intro/level-2/makeArrayConsecutive2.py)
 
 ```python
 def makeArrayConsecutive2(statues):
@@ -178,7 +190,9 @@ def makeArrayConsecutive2(statues):
     return result
 ```
 
-##### [shapeArea](/arcade/intro/level-2/shapeArea.py)
+##### shapeArea
+
+[source](/arcade/intro/level-2/shapeArea.py)
 
 ```python
 def shapeArea(n):
