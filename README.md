@@ -7,47 +7,135 @@ Here are my [`codesignal`](https://app.codesignal.com/profile/ofou) solutions! I
 
 I'm also using [`exercism`](https://github.com/ofou/exercism) and [`freeCodeCamp`](https://www.freecodecamp.org/ofou), both are great ways to improve your skills futher using the command line or web browser.
 
-<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=4 orderedList=true} -->
+<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=4 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
-1. [Intro (7/60)](#intro-760)
-2. [Databases (51/84)](#databases-5184)
-3. [The Core (5/162)](#the-core-5162)
-4. [Python (0/92)](#python-092)
-5. [Graphs (0/66)](#graphs-066)
-6. [Interview Practice (0/110)](#interview-practice-0110)
-    1. [Data Structures](#data-structures)
-        1. [Arrays](#arrays)
-        2. [Linked Lists](#linked-lists)
-        3. [Hash Tables](#hash-tables)
-        4. [Trees: Basic](#trees-basic)
-        5. [Heaps, Stacks, Queues](#heaps-stacks-queues)
-        6. [Graphs](#graphs)
-        7. [Trees: Advanced](#trees-advanced)
-    2. [Sorting & Searching](#sorting-searching)
-        1. [Depth-First Search & Breadth-First Search](#depth-first-search-breadth-first-search)
-        2. [Backtracking](#backtracking)
-        3. [Sorting](#sorting)
-    3. [Dynamic Programming](#dynamic-programming)
-        1. [Dynamic Programming: Basic](#dynamic-programming-basic)
-        2. [Dynamic Programming: Advanced](#dynamic-programming-advanced)
-    4. [Special Topics](#special-topics)
-        1. [Common Techniques: Basic](#common-techniques-basic)
-        2. [Strings](#strings)
-        3. [Bits](#bits)
-        4. [Common Techniques: Advanced](#common-techniques-advanced)
-        5. [RegEx](#regex)
-    5. [Math](#math)
-        1. [Number Theory](#number-theory)
-        2. [Counting](#counting)
-        3. [Geometry](#geometry)
+- [Intro (7/60)](#intro-760)
+    - [add](#addarcadeintrolevel-1addpy)
+    - [centuryFromYear](#centuryfromyeararcadeintrolevel-1centuryfromyearpy)
+    - [checkPalindrome](#checkpalindromearcadeintrolevel-1checkpalindromepy)
+    - [adjacentElementsProduct](#adjacentelementsproductarcadeintrolevel-2adjacentelementsproductpy)
+    - [almostIncreasingSequence](#almostincreasingsequencearcadeintrolevel-2almostincreasingsequencepy)
+    - [makeArrayConsecutive2](#makearrayconsecutive2arcadeintrolevel-2makearrayconsecutive2py)
+    - [shapeArea](#shapeareaarcadeintrolevel-2shapeareapy)
+- [Databases (51/84)](#databases-5184)
+- [The Core (5/162)](#the-core-5162)
+- [Python (0/92)](#python-092)
+- [Graphs (0/66)](#graphs-066)
+- [Interview Practice (0/110)](#interview-practice-0110)
+  - [Data Structures](#data-structures)
+    - [Arrays](#arrays)
+    - [Linked Lists](#linked-lists)
+    - [Hash Tables](#hash-tables)
+    - [Trees: Basic](#trees-basic)
+    - [Heaps, Stacks, Queues](#heaps-stacks-queues)
+    - [Graphs](#graphs)
+    - [Trees: Advanced](#trees-advanced)
+  - [Sorting & Searching](#sorting-searching)
+    - [Depth-First Search & Breadth-First Search](#depth-first-search-breadth-first-search)
+    - [Backtracking](#backtracking)
+    - [Sorting](#sorting)
+  - [Dynamic Programming](#dynamic-programming)
+    - [Dynamic Programming: Basic](#dynamic-programming-basic)
+    - [Dynamic Programming: Advanced](#dynamic-programming-advanced)
+  - [Special Topics](#special-topics)
+    - [Common Techniques: Basic](#common-techniques-basic)
+    - [Strings](#strings)
+    - [Bits](#bits)
+    - [Common Techniques: Advanced](#common-techniques-advanced)
+    - [RegEx](#regex)
+  - [Math](#math)
+    - [Number Theory](#number-theory)
+    - [Counting](#counting)
+    - [Geometry](#geometry)
 
 <!-- /code_chunk_output -->
 
 ---
 
 ## Intro (7/60)
+
+#### [add](/arcade/intro/level-1/add.py)
+
+```python
+def add(param1, param2):
+    return param1 + param2
+
+```
+
+#### [centuryFromYear](/arcade/intro/level-1/centuryFromYear.py)
+
+```python
+def centuryFromYear(year):
+    if year % 100 == 0:
+        return year // 100
+    else:
+        return (year // 100) + 1
+
+```
+
+#### [checkPalindrome](/arcade/intro/level-1/checkPalindrome.py)
+
+```python
+def checkPalindrome(inputString):
+    return inputString[::-1] == inputString
+```
+
+#### [adjacentElementsProduct](/arcade/intro/level-2/adjacentElementsProduct.py)
+
+```python
+def adjacentElementsProduct(inputArray):
+    candidates = []
+    for i, num in enumerate(inputArray):
+        if i+1 == len(inputArray):
+            break
+        candidates.append(inputArray[i]*inputArray[i+1])
+    return max(candidates)
+```
+
+#### [almostIncreasingSequence](/arcade/intro/level-2/almostIncreasingSequence.py)
+
+```python
+def almostIncreasingSequence(sequence):
+    erase = True
+    for i in range(len(sequence)-1):
+        if sequence[i] < sequence[i+1]:
+            pass
+        elif sequence[i-1] < sequence[i+1] and erase:
+            erase = False
+        elif i == 0 and erase:
+            erase = False
+        elif len(sequence)-2 == i and erase:
+            erase = False
+        elif sequence[i-1] == sequence[i+1] and erase and sequence[i] != sequence[i+2]:
+            erase = False
+        else:
+            return False
+    return True
+```
+
+#### [makeArrayConsecutive2](/arcade/intro/level-2/makeArrayConsecutive2.py)
+
+```python
+def makeArrayConsecutive2(statues):
+    result = 0
+    statues.sort()
+    for i, statue in enumerate(statues):
+        if (i < len(statues)-1):
+            result += statues[i+1] - statues[i] - 1
+    return result
+```
+
+#### [shapeArea](/arcade/intro/level-2/shapeArea.py)
+
+```python
+def shapeArea(n):
+    area = 2*n-1
+    for j in range(1, 2*n-1, 2):
+        area = area+2*j
+    return area
+```
 
 ## Databases (51/84)
 
@@ -740,12 +828,6 @@ BEGIN
     LEFT JOIN cities ON users.city = cities.city
     order by id;
 END
-```
-
-##### [NAMEOF](/arcade/db/join-us-at-the-table/NAMEOF.sql)
-
-```sql
-
 ```
 
 ##### [placesOfInterestPairs](/arcade/db/join-us-at-the-table/placesOfInterestPairs.sql)
