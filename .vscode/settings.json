@@ -1,0 +1,7 @@
+{
+    "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
+    "markdown-preview-enhanced.frontMatterRenderingOption": "table",
+    "markdown-preview-enhanced.previewTheme": "github-dark.css",
+    "sql-formatter.uppercase": true,
+    "markdown-preview-enhanced.codeBlockTheme": "monokai.css"
+}
