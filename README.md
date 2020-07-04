@@ -7,56 +7,107 @@ Here are my [`codesignal`](https://app.codesignal.com/profile/ofou) solutions! I
 
 I'm also using [`exercism`](https://github.com/ofou/exercism) and [`freeCodeCamp`](https://www.freecodecamp.org/ofou), both are great ways to improve your skills futher using the command line or web browser.
 
-<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=4 orderedList=false} -->
+<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=5 orderedList=true} -->
 
 <!-- code_chunk_output -->
 
-- [Intro (7/60)](#intro-760)
-    - [add](#addarcadeintrolevel-1addpy)
-    - [centuryFromYear](#centuryfromyeararcadeintrolevel-1centuryfromyearpy)
-    - [checkPalindrome](#checkpalindromearcadeintrolevel-1checkpalindromepy)
-    - [adjacentElementsProduct](#adjacentelementsproductarcadeintrolevel-2adjacentelementsproductpy)
-    - [almostIncreasingSequence](#almostincreasingsequencearcadeintrolevel-2almostincreasingsequencepy)
-    - [makeArrayConsecutive2](#makearrayconsecutive2arcadeintrolevel-2makearrayconsecutive2py)
-    - [shapeArea](#shapeareaarcadeintrolevel-2shapeareapy)
-- [Databases (51/84)](#databases-5184)
-- [The Core (5/162)](#the-core-5162)
-- [Python (0/92)](#python-092)
-- [Graphs (0/66)](#graphs-066)
-- [Interview Practice (0/110)](#interview-practice-0110)
-  - [Data Structures](#data-structures)
-    - [Arrays](#arrays)
-    - [Linked Lists](#linked-lists)
-    - [Hash Tables](#hash-tables)
-    - [Trees: Basic](#trees-basic)
-    - [Heaps, Stacks, Queues](#heaps-stacks-queues)
-    - [Graphs](#graphs)
-    - [Trees: Advanced](#trees-advanced)
-  - [Sorting & Searching](#sorting-searching)
-    - [Depth-First Search & Breadth-First Search](#depth-first-search-breadth-first-search)
-    - [Backtracking](#backtracking)
-    - [Sorting](#sorting)
-  - [Dynamic Programming](#dynamic-programming)
-    - [Dynamic Programming: Basic](#dynamic-programming-basic)
-    - [Dynamic Programming: Advanced](#dynamic-programming-advanced)
-  - [Special Topics](#special-topics)
-    - [Common Techniques: Basic](#common-techniques-basic)
-    - [Strings](#strings)
-    - [Bits](#bits)
-    - [Common Techniques: Advanced](#common-techniques-advanced)
-    - [RegEx](#regex)
-  - [Math](#math)
-    - [Number Theory](#number-theory)
-    - [Counting](#counting)
-    - [Geometry](#geometry)
+1. [**Intro (7/60)**](#intro-760)
+            1. [add](#addarcadeintrolevel-1addpy)
+            1. [centuryFromYear](#centuryfromyeararcadeintrolevel-1centuryfromyearpy)
+            1. [checkPalindrome](#checkpalindromearcadeintrolevel-1checkpalindromepy)
+            2. [adjacentElementsProduct](#adjacentelementsproductarcadeintrolevel-2adjacentelementsproductpy)
+            3. [almostIncreasingSequence](#almostincreasingsequencearcadeintrolevel-2almostincreasingsequencepy)
+            4. [makeArrayConsecutive2](#makearrayconsecutive2arcadeintrolevel-2makearrayconsecutive2py)
+            5. [shapeArea](#shapeareaarcadeintrolevel-2shapeareapy)
+2. [**Databases (51/84)**](#databases-5184)
+            1. [projectList](#projectlistarcadedbwelcome-to-the-tableprojectlistsql)
+            1. [countriesSelection](#countriesselectionarcadedbwelcome-to-the-tablecountriesselectionsql)
+            1. [monthlyScholarships](#monthlyscholarshipsarcadedbwelcome-to-the-tablemonthlyscholarshipssql)
+            2. [projectsTeam](#projectsteamarcadedbwelcome-to-the-tableprojectsteamsql)
+            3. [automaticNotifications](#automaticnotificationsarcadedbwelcome-to-the-tableautomaticnotificationssql)
+            4. [volleyballResults](#volleyballresultsarcadedbalways-leave-table-in-ordervolleyballresultssql)
+            5. [mostExpensive](#mostexpensivearcadedbalways-leave-table-in-ordermostexpensivesql)
+            6. [contestLeaderboard](#contestleaderboardarcadedbalways-leave-table-in-ordercontestleaderboardsql)
+            7. [gradeDistribution](#gradedistributionarcadedbalways-leave-table-in-ordergradedistributionsql)
+            8. [mischievousNephews](#mischievousnephewsarcadedbalways-leave-table-in-ordermischievousnephewssql)
+            9. [suspectsInvestigation](#suspectsinvestigationarcadedbwould-you-like-the-second-mealsuspectsinvestigationsql)
+            10. [suspectsInvestigation2](#suspectsinvestigation2arcadedbwould-you-like-the-second-mealsuspectsinvestigation2sql)
+            11. [securityBreach](#securitybreacharcadedbwould-you-like-the-second-mealsecuritybreachsql)
+            12. [testCheck](#testcheckarcadedbwould-you-like-the-second-mealtestchecksql)
+            13. [expressionsVerification](#expressionsverificationarcadedbwould-you-like-the-second-mealexpressionsverificationsql)
+            14. [newsSubscribers](#newssubscribersarcadedbwould-you-like-the-second-mealnewssubscriberssql)
+            15. [countriesInfo](#countriesinfoarcadedbgroup-dishes-by-typecountriesinfosql)
+            16. [itemCounts](#itemcountsarcadedbgroup-dishes-by-typeitemcountssql)
+            17. [usersByContinent](#usersbycontinentarcadedbgroup-dishes-by-typeusersbycontinentsql)
+            18. [movieDirectors](#moviedirectorsarcadedbgroup-dishes-by-typemoviedirectorssql)
+            19. [travelDiary](#traveldiaryarcadedbgroup-dishes-by-typetraveldiarysql)
+            20. [soccerPlayers](#soccerplayersarcadedbgroup-dishes-by-typesoccerplayerssql)
+            21. [marketReport](#marketreportarcadedbgroup-dishes-by-typemarketreportsql)
+            22. [websiteHacking](#websitehackingarcadedbtime-for-trickswebsitehackingsql)
+            23. [nullIntern](#nullinternarcadedbtime-for-tricksnullinternsql)
+            24. [legsCount](#legscountarcadedbtime-for-trickslegscountsql)
+            25. [combinationLock](#combinationlockarcadedbtime-for-trickscombinationlocksql)
+            26. [interestClub](#interestclubarcadedbspecialtiesinterestclubsql)
+            27. [personalHobbies](#personalhobbiesarcadedbspecialtiespersonalhobbiessql)
+            28. [booksCatalogs](#bookscatalogsarcadedbspecialtiesbookscatalogssql)
+            29. [habitatArea](#habitatareaarcadedbspecialtieshabitatareasql)
+            30. [orderOfSuccession](#orderofsuccessionarcadedbwhen-was-it-the-caseorderofsuccessionsql)
+            31. [orderingEmails](#orderingemailsarcadedbwhen-was-it-the-caseorderingemailssql)
+            32. [placesOfInterest](#placesofinterestarcadedbwhen-was-it-the-caseplacesofinterestsql)
+            33. [soccerGameSeries](#soccergameseriesarcadedbwhen-was-it-the-casesoccergameseriessql)
+            34. [correctIPs](#correctipsarcadedbregular-paradisecorrectipssql)
+            35. [validPhoneNumbers](#validphonenumbersarcadedbregular-paradisevalidphonenumberssql)
+            36. [importantEvents](#importanteventsarcadedbtime-river-revisitedimportanteventssql)
+            37. [dateFormatting](#dateformattingarcadedbtime-river-revisiteddateformattingsql)
+            38. [pastEvents](#pasteventsarcadedbtime-river-revisitedpasteventssql)
+            39. [netIncome](#netincomearcadedbtime-river-revisitednetincomesql)
+            40. [alarmClocks](#alarmclocksarcadedbtime-river-revisitedalarmclockssql)
+            41. [companyEmployees](#companyemployeesarcadedbjoin-us-at-the-tablecompanyemployeessql)
+            42. [scholarshipsDistribution](#scholarshipsdistributionarcadedbjoin-us-at-the-tablescholarshipsdistributionsql)
+            43. [userCountries](#usercountriesarcadedbjoin-us-at-the-tableusercountriessql)
+            44. [placesOfInterestPairs](#placesofinterestpairsarcadedbjoin-us-at-the-tableplacesofinterestpairssql)
+            45. [localCalendar](#localcalendararcadedbjoin-us-at-the-tablelocalcalendarsql)
+            46. [routeLength](#routelengtharcadedbjoin-us-at-the-tableroutelengthsql)
+            47. [currencyCodes](#currencycodesarcadedbtable-metamorphosescurrencycodessql)
+            48. [coursesDistribution](#coursesdistributionarcadedbtable-metamorphosescoursesdistributionsql)
+            49. [nicknames](#nicknamesarcadedbtable-metamorphosesnicknamessql)
+3. [**The Core (5/162)**](#the-core-5162)
+4. [**Python (0/92)**](#python-092)
+5. [**Graphs (0/66)**](#graphs-066)
+6. [**Interview Practice (0/110)**](#interview-practice-0110)
+    1. [Data Structures](#data-structures)
+        1. [Arrays](#arrays)
+        2. [Linked Lists](#linked-lists)
+        3. [Hash Tables](#hash-tables)
+        4. [Trees: Basic](#trees-basic)
+        5. [Heaps, Stacks, Queues](#heaps-stacks-queues)
+        6. [Graphs](#graphs)
+        7. [Trees: Advanced](#trees-advanced)
+    2. [Sorting & Searching](#sorting-searching)
+        1. [Depth-First Search & Breadth-First Search](#depth-first-search-breadth-first-search)
+        2. [Backtracking](#backtracking)
+        3. [Sorting](#sorting)
+    3. [Dynamic Programming](#dynamic-programming)
+        1. [Dynamic Programming: Basic](#dynamic-programming-basic)
+        2. [Dynamic Programming: Advanced](#dynamic-programming-advanced)
+    4. [Special Topics](#special-topics)
+        1. [Common Techniques: Basic](#common-techniques-basic)
+        2. [Strings](#strings)
+        3. [Bits](#bits)
+        4. [Common Techniques: Advanced](#common-techniques-advanced)
+        5. [RegEx](#regex)
+    5. [Math](#math)
+        1. [Number Theory](#number-theory)
+        2. [Counting](#counting)
+        3. [Geometry](#geometry)
 
 <!-- /code_chunk_output -->
 
 ---
 
-## Intro (7/60)
+## **Intro (7/60)**
 
-#### [add](/arcade/intro/level-1/add.py)
+##### [add](/arcade/intro/level-1/add.py)
 
 ```python
 def add(param1, param2):
@@ -64,7 +115,7 @@ def add(param1, param2):
 
 ```
 
-#### [centuryFromYear](/arcade/intro/level-1/centuryFromYear.py)
+##### [centuryFromYear](/arcade/intro/level-1/centuryFromYear.py)
 
 ```python
 def centuryFromYear(year):
@@ -75,14 +126,14 @@ def centuryFromYear(year):
 
 ```
 
-#### [checkPalindrome](/arcade/intro/level-1/checkPalindrome.py)
+##### [checkPalindrome](/arcade/intro/level-1/checkPalindrome.py)
 
 ```python
 def checkPalindrome(inputString):
     return inputString[::-1] == inputString
 ```
 
-#### [adjacentElementsProduct](/arcade/intro/level-2/adjacentElementsProduct.py)
+##### [adjacentElementsProduct](/arcade/intro/level-2/adjacentElementsProduct.py)
 
 ```python
 def adjacentElementsProduct(inputArray):
@@ -94,7 +145,7 @@ def adjacentElementsProduct(inputArray):
     return max(candidates)
 ```
 
-#### [almostIncreasingSequence](/arcade/intro/level-2/almostIncreasingSequence.py)
+##### [almostIncreasingSequence](/arcade/intro/level-2/almostIncreasingSequence.py)
 
 ```python
 def almostIncreasingSequence(sequence):
@@ -115,7 +166,7 @@ def almostIncreasingSequence(sequence):
     return True
 ```
 
-#### [makeArrayConsecutive2](/arcade/intro/level-2/makeArrayConsecutive2.py)
+##### [makeArrayConsecutive2](/arcade/intro/level-2/makeArrayConsecutive2.py)
 
 ```python
 def makeArrayConsecutive2(statues):
@@ -127,7 +178,7 @@ def makeArrayConsecutive2(statues):
     return result
 ```
 
-#### [shapeArea](/arcade/intro/level-2/shapeArea.py)
+##### [shapeArea](/arcade/intro/level-2/shapeArea.py)
 
 ```python
 def shapeArea(n):
@@ -137,7 +188,7 @@ def shapeArea(n):
     return area
 ```
 
-## Databases (51/84)
+## **Databases (51/84)**
 
 ##### [projectList](/arcade/db/welcome-to-the-table/projectList.sql)
 
@@ -945,13 +996,13 @@ ORDER BY id;
 END
 ```
 
-## The Core (5/162)
+## **The Core (5/162)**
 
-## Python (0/92)
+## **Python (0/92)**
 
-## Graphs (0/66)
+## **Graphs (0/66)**
 
-## Interview Practice (0/110)
+## **Interview Practice (0/110)**
 
 ### Data Structures
 
