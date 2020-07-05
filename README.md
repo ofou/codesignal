@@ -11,12 +11,12 @@ I'm also using [`exercism`](https://github.com/ofou/exercism) and [`freeCodeCamp
 
 <!-- code_chunk_output -->
 
-- [![7/60](https://progress-bar.dev/11) **Intro**](#760httpsprogress-bardev11-intro)
-- [![51/84](https://progress-bar.dev/60/) **Databases**](#5184httpsprogress-bardev60-databases)
-- [![5/162](https://progress-bar.dev/03) **The Core**](#5162httpsprogress-bardev03-the-core)
-- [![0/92](https://progress-bar.dev/03) **Python**](#092httpsprogress-bardev03-python)
-- [![0/66](https://progress-bar.dev/00) **Graphs**](#066httpsprogress-bardev00-graphs)
-- [![0/110](https://progress-bar.dev/00) **Interview Practice**](#0110httpsprogress-bardev00-interview-practice)
+- [**Intro (7/60)**](#intro-760)
+- [**Databases (51/84)**](#databases-5184)
+- [**The Core (5/162)**](#the-core-5162)
+- [**Python (0/92)**](#python-092)
+- [**Graphs (0/66)**](#graphs-066)
+- [**Interview Practice (0/110)**](#interview-practice-0110)
   - [Data Structures](#data-structures)
     - [Arrays](#arrays)
     - [Linked Lists](#linked-lists)
@@ -47,7 +47,7 @@ I'm also using [`exercism`](https://github.com/ofou/exercism) and [`freeCodeCamp
 
 ---
 
-## ![7/60](https://progress-bar.dev/11) **Intro**
+## **Intro (7/60)**
 
 ##### [add](/arcade/intro/level-1/add.py)
 
@@ -129,7 +129,7 @@ def shapeArea(n):
     return area
 ```
 
-## ![51/84](https://progress-bar.dev/60/) **Databases**
+## **Databases (51/84)**
 
 ##### [projectList](/arcade/db/welcome-to-the-table/projectList.sql)
 
@@ -937,7 +937,7 @@ ORDER BY id;
 END
 ```
 
-## ![5/162](https://progress-bar.dev/03) **The Core**
+## **The Core (5/162)**
 
 ##### [addTwoDigits](/arcade/db/intro-gates/addTwoDigits.py)
 
@@ -1048,11 +1048,11 @@ def sortByHeight(people):
 
 ```
 
-## ![0/92](https://progress-bar.dev/03) **Python**
+## **Python (0/92)**
 
-## ![0/66](https://progress-bar.dev/00) **Graphs**
+## **Graphs (0/66)**
 
-## ![0/110](https://progress-bar.dev/00) **Interview Practice**
+## **Interview Practice (0/110)**
 
 ### Data Structures
 
