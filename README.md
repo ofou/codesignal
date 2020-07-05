@@ -970,6 +970,17 @@ def seatsInTheater(nCols, nRows, col, row):
     return x*y
 ```
 
+##### [maxMultiple](/arcade/db/intro-gates/maxMultiple.py)
+
+```python
+def maxMultiple(divisor, bound):
+    result = 0
+    for N in range(1, bound+1):
+        if N % divisor == 0:
+            result = N
+    return result
+```
+
 ##### [matrixElementsSum](arcade/intro/level-2/matrixElementsSum.py)
 
 ```python
@@ -986,15 +997,17 @@ def matrixElementsSum(matrix):
     return sum
 ```
 
-##### [maxMultiple](/arcade/db/intro-gates/maxMultiple.py)
+##### [allLongestStrings](/arcade/intro/level-3/allLongestStrings.py)
 
 ```python
-def maxMultiple(divisor, bound):
-    result = 0
-    for N in range(1, bound+1):
-        if N % divisor == 0:
-            result = N
-    return result
+def allLongestStrings(inputArray):
+    elements = {}
+    for word in inputArray:
+        if len(word) in elements.keys():
+            elements[(len(word))].append(word)
+        else:
+            elements[(len(word))] = [word]
+    return list(elements[max(elements.keys())])
 ```
 
 ## **Python (0/92)**
