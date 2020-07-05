@@ -1032,6 +1032,22 @@ def isLucky(n):
     return (sum(numbers[:len(numbers)//2]) == sum(numbers[len(numbers)//2:]))
 ```
 
+##### [sortByHeight](/arcade/intro/level-3/sortByHeight.py)
+
+```python
+def sortByHeight(people):
+    peopleWithTrees = list(
+        filter(lambda tree: tree != -1, sorted(people)))[::-1]
+    sortedHeights = []
+    for element in people:
+        if element == -1:
+            sortedHeights.append(element)
+        else:
+            sortedHeights.append(peopleWithTrees.pop())
+    return sortedHeights
+
+```
+
 ## **Python (0/92)**
 
 ## **Graphs (0/66)**
