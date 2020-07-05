@@ -1024,6 +1024,14 @@ def commonCharacterCount(s1, s2):
     return commonCharacterCount
 ```
 
+##### [isLucky](/arcade/intro/level-3/isLucky.py)
+
+```python
+def isLucky(n):
+    numbers = list(map(int, str(n)))
+    return (sum(numbers[:len(numbers)//2]) == sum(numbers[len(numbers)//2:]))
+```
+
 ## **Python (0/92)**
 
 ## **Graphs (0/66)**
