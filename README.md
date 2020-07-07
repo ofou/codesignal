@@ -129,6 +129,25 @@ def shapeArea(n):
     return area
 ```
 
+##### [reverseInParentheses](/arcade/intro/level-2/reverseInParentheses.py)
+
+```python
+def reverseInParentheses(inputString):
+    stack = []
+    temp = ''
+    for index, letter in enumerate(inputString):
+        if (letter == '('):
+            stack.append(temp)
+            temp = ''
+        elif (letter == ')'):
+            temp = stack.pop() + temp[::-1]
+        else:
+            temp += letter
+    if not temp == '':
+        stack.append(temp)
+    return ''.join(stack)
+```
+
 ## **Databases (51/84)**
 
 ##### [projectList](/arcade/db/welcome-to-the-table/projectList.sql)
