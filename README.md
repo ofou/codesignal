@@ -11,7 +11,7 @@ I'm also using [`exercism`](https://github.com/ofou/exercism) and [`freeCodeCamp
 
 <!-- code_chunk_output -->
 
-- [**Intro (7/60)**](#intro-760)
+- [**Intro (14/60)**](#intro-1460)
 - [**Databases (51/84)**](#databases-5184)
 - [**The Core (5/162)**](#the-core-5162)
 - [**Python (0/92)**](#python-092)
@@ -47,7 +47,7 @@ I'm also using [`exercism`](https://github.com/ofou/exercism) and [`freeCodeCamp
 
 ---
 
-## **Intro (7/60)**
+## **Intro (14/60)**
 
 ##### [add](/arcade/intro/level-1/add.py)
 
@@ -86,6 +86,28 @@ def adjacentElementsProduct(inputArray):
     return max(candidates)
 ```
 
+##### [shapeArea](/arcade/intro/level-2/shapeArea.py)
+
+```python
+def shapeArea(n):
+    area = 2*n-1
+    for j in range(1, 2*n-1, 2):
+        area = area+2*j
+    return area
+```
+
+##### [makeArrayConsecutive2](/arcade/intro/level-2/makeArrayConsecutive2.py)
+
+```python
+def makeArrayConsecutive2(statues):
+    result = 0
+    statues.sort()
+    for i, statue in enumerate(statues):
+        if (i < len(statues)-1):
+            result += statues[i+1] - statues[i] - 1
+    return result
+```
+
 ##### [almostIncreasingSequence](/arcade/intro/level-2/almostIncreasingSequence.py)
 
 ```python
@@ -107,29 +129,74 @@ def almostIncreasingSequence(sequence):
     return True
 ```
 
-##### [makeArrayConsecutive2](/arcade/intro/level-2/makeArrayConsecutive2.py)
+##### [matrixElementsSum](arcade/intro/level-2/matrixElementsSum.py)
 
 ```python
-def makeArrayConsecutive2(statues):
-    result = 0
-    statues.sort()
-    for i, statue in enumerate(statues):
-        if (i < len(statues)-1):
-            result += statues[i+1] - statues[i] - 1
-    return result
+def matrixElementsSum(matrix):
+    sum = 0
+    ghost = []
+    for i, row in enumerate(matrix):
+        for j, value in enumerate(row):
+            if value == 0:
+                ghost.append(j)
+            if(j in ghost):
+                continue
+            sum += value
+    return sum
 ```
 
-##### [shapeArea](/arcade/intro/level-2/shapeArea.py)
+##### [allLongestStrings](/arcade/intro/level-3/allLongestStrings.py)
 
 ```python
-def shapeArea(n):
-    area = 2*n-1
-    for j in range(1, 2*n-1, 2):
-        area = area+2*j
-    return area
+def allLongestStrings(inputArray):
+    elements = {}
+    for word in inputArray:
+        if len(word) in elements.keys():
+            elements[(len(word))].append(word)
+        else:
+            elements[(len(word))] = [word]
+    return list(elements[max(elements.keys())])
 ```
 
-##### [reverseInParentheses](/arcade/intro/level-2/reverseInParentheses.py)
+##### [commonCharacterCount](/arcade/intro/level-3/commonCharacterCount.py)
+
+```python
+def commonCharacterCount(s1, s2):
+    A = {x: sum(len(i) for i in s1 if x == i) for x in list(s1)}
+    B = {x: sum(len(i) for i in s2 if x == i) for x in list(s2)}
+    U = set(A) & set(B)
+    commonCharacterCount = 0
+    for a in A:
+        if a in U:
+            commonCharacterCount += min(A[a], B[a])
+    return commonCharacterCount
+```
+
+##### [isLucky](/arcade/intro/level-3/isLucky.py)
+
+```python
+def isLucky(n):
+    numbers = list(map(int, str(n)))
+    return (sum(numbers[:len(numbers)//2]) == sum(numbers[len(numbers)//2:]))
+```
+
+##### [sortByHeight](/arcade/intro/level-3/sortByHeight.py)
+
+```python
+def sortByHeight(people):
+    peopleWithTrees = list(
+        filter(lambda tree: tree != -1, sorted(people)))[::-1]
+    sortedHeights = []
+    for element in people:
+        if element == -1:
+            sortedHeights.append(element)
+        else:
+            sortedHeights.append(peopleWithTrees.pop())
+    return sortedHeights
+
+```
+
+##### [reverseInParentheses](/arcade/intro/level-3/reverseInParentheses.py)
 
 ```python
 def reverseInParentheses(inputString):
@@ -146,6 +213,21 @@ def reverseInParentheses(inputString):
     if not temp == '':
         stack.append(temp)
     return ''.join(stack)
+```
+
+##### [alternatingSums](/arcade/intro/level-4/alternatingSums.py)
+
+```python
+from functools import reduce
+
+
+def alternatingSums(elements):
+    a = [team[1] for team in enumerate(elements) if team[0] % 2 == 0]
+    b = [team[1] for team in enumerate(elements) if team[0] % 2 == 1]
+    team_a = reduce(lambda x, y: x+y, a, 0)
+    team_b = reduce(lambda x, y: x+y, b, 0)
+    return [team_a, team_b]
+
 ```
 
 ## **Databases (51/84)**
@@ -958,14 +1040,14 @@ END
 
 ## **The Core (5/162)**
 
-##### [addTwoDigits](/arcade/db/intro-gates/addTwoDigits.py)
+##### [addTwoDigits](arcade/python-arcade/intro-gates/addTwoDigits.py)
 
 ```python
 def addTwoDigits(n):
     return sum(list(map(int,str(n))))
 ```
 
-##### [largestNumber](/arcade/db/intro-gates/largestNumber.py)
+##### [largestNumber](arcade/python-arcade/intro-gates/largestNumber.py)
 
 ```python
 def largestNumber(n):
@@ -973,14 +1055,14 @@ def largestNumber(n):
     return int(number)
 ```
 
-##### [candies](/arcade/db/intro-gates/candies.py)
+##### [candies](arcade/python-arcade/intro-gates/candies.py)
 
 ```python
 def candies(n, m):
     return (m//n) * n
 ```
 
-##### [seatsInTheater](/arcade/db/intro-gates/seatsInTheater.py)
+##### [seatsInTheater](arcade/python-arcade/intro-gates/seatsInTheater.py)
 
 ```python
 def seatsInTheater(nCols, nRows, col, row):
@@ -989,7 +1071,7 @@ def seatsInTheater(nCols, nRows, col, row):
     return x*y
 ```
 
-##### [maxMultiple](/arcade/db/intro-gates/maxMultiple.py)
+##### [maxMultiple](arcade/python-arcade/intro-gates/maxMultiple.py)
 
 ```python
 def maxMultiple(divisor, bound):
@@ -998,73 +1080,6 @@ def maxMultiple(divisor, bound):
         if N % divisor == 0:
             result = N
     return result
-```
-
-##### [matrixElementsSum](arcade/intro/level-2/matrixElementsSum.py)
-
-```python
-def matrixElementsSum(matrix):
-    sum = 0
-    ghost = []
-    for i, row in enumerate(matrix):
-        for j, value in enumerate(row):
-            if value == 0:
-                ghost.append(j)
-            if(j in ghost):
-                continue
-            sum += value
-    return sum
-```
-
-##### [allLongestStrings](/arcade/intro/level-3/allLongestStrings.py)
-
-```python
-def allLongestStrings(inputArray):
-    elements = {}
-    for word in inputArray:
-        if len(word) in elements.keys():
-            elements[(len(word))].append(word)
-        else:
-            elements[(len(word))] = [word]
-    return list(elements[max(elements.keys())])
-```
-
-##### [commonCharacterCount](/arcade/intro/level-3/commonCharacterCount.py)
-
-```python
-def commonCharacterCount(s1, s2):
-    A = {x: sum(len(i) for i in s1 if x == i) for x in list(s1)}
-    B = {x: sum(len(i) for i in s2 if x == i) for x in list(s2)}
-    U = set(A) & set(B)
-    commonCharacterCount = 0
-    for a in A:
-        if a in U:
-            commonCharacterCount += min(A[a], B[a])
-    return commonCharacterCount
-```
-
-##### [isLucky](/arcade/intro/level-3/isLucky.py)
-
-```python
-def isLucky(n):
-    numbers = list(map(int, str(n)))
-    return (sum(numbers[:len(numbers)//2]) == sum(numbers[len(numbers)//2:]))
-```
-
-##### [sortByHeight](/arcade/intro/level-3/sortByHeight.py)
-
-```python
-def sortByHeight(people):
-    peopleWithTrees = list(
-        filter(lambda tree: tree != -1, sorted(people)))[::-1]
-    sortedHeights = []
-    for element in people:
-        if element == -1:
-            sortedHeights.append(element)
-        else:
-            sortedHeights.append(peopleWithTrees.pop())
-    return sortedHeights
-
 ```
 
 ## **Python (0/92)**
