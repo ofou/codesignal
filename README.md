@@ -1,6 +1,6 @@
 # 👨‍💻 codesignal
 
-> **_“I never am really satisfied that I understand anything; because, understand it well as I may, my comprehension can only be an infinitesimal fraction of all I want to understand about the many connections and relations which occur to me.”_**
+> **“I never am really satisfied that I understand anything; because, understand it well as I may, my comprehension can only be an infinitesimal fraction of all I want to understand about the many connections and relations which occur to me.”** \
 > — Ada Lovelace
 
 Here are my [codesignal](https://app.codesignal.com/profile/ofou) solutions! I'm using its platform in order to improve my Algorithmic and Coding skills, especially in Python and SQL. It's taking me long hours so far, I'm currently at _level 26_ and I'm eager to finish the full Arcade Universe plus the Interview Practice. I'm tracking my coding time using [rescuetime](https://www.rescuetime.com/rp/ofou). If you have any comments or suggestions about my code, please open an issue, I'll very happy reciving any kind of feedback!
