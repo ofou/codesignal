@@ -12,7 +12,7 @@ I'm also using [`leetcode`](https://github.com/ofou/leetcode), [`exercism`](http
 <!-- code_chunk_output -->
 
 - [**Introduction**](#introduction)
-- [**DatabasesMySQL](#databasesmysql)
+- [**Databases**](#databases)
 - [**The Core**](#the-core)
 
 <!-- /code_chunk_output -->
@@ -38,7 +38,6 @@ I'm also using [`leetcode`](https://github.com/ofou/leetcode), [`exercism`](http
 | reverseInParentheses     | [reverseInParentheses]     | python3  |
 | alternatingSums          | [alternatingSums]          | python3  |
 
-
 [add]: /arcade/intro/level-1/add.py
 [centuryFromYear]: /arcade/intro/level-1/centuryFromYear.py
 [checkPalindrome]: /arcade/intro/level-1/checkPalindrome.py
@@ -54,8 +53,7 @@ I'm also using [`leetcode`](https://github.com/ofou/leetcode), [`exercism`](http
 [reverseInParentheses]: /arcade/intro/level-3/reverseInParentheses.py
 [alternatingSums]: /arcade/intro/level-4/alternatingSums.py
 
-
-## **DatabasesMySQL
+## **Databases**
 
 | Problem                  | Solution                   | Laguage |
 |:-------------------------|:---------------------------|:-------:|
@@ -110,7 +108,6 @@ I'm also using [`leetcode`](https://github.com/ofou/leetcode), [`exercism`](http
 | currencyCodes            | [currencyCodes]            |  MySQL  |
 | coursesDistribution      | [coursesDistribution]      |  MySQL  |
 | nicknames                | [nicknames]                |  MySQL  |
-
 
 [projectList]: /arcade/db/welcome-to-the-table/projectList.sql
 [countriesSelection]: /arcade/db/welcome-to-the-table/countriesSelection.sql
@@ -173,7 +170,6 @@ I'm also using [`leetcode`](https://github.com/ofou/leetcode), [`exercism`](http
 | candies        | [candies]        |  Python  |
 | seatsInTheater | [seatsInTheater] |  Python  |
 | maxMultiple    | [maxMultiple]    |  Python  |
-
 
 [addTwoDigits]: arcade/python-arcade/intro-gates/addTwoDigits.py
 [largestNumber]: arcade/python-arcade/intro-gates/largestNumber.py
