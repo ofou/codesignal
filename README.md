@@ -108,7 +108,9 @@ I'm also using [`leetcode`](https://github.com/ofou/leetcode), [`exercism`](http
 | currencyCodes            | [currencyCodes]            |  MySQL  |
 | coursesDistribution      | [coursesDistribution]      |  MySQL  |
 | nicknames                | [nicknames]                |  MySQL  |
+| tableSecurity            | [tableSecurity]            |  MySQL  |
 
+[tableSecurity]: /arcade/db/table-metamorphoses/tableSecurity.sql
 [projectList]: /arcade/db/welcome-to-the-table/projectList.sql
 [countriesSelection]: /arcade/db/welcome-to-the-table/countriesSelection.sql
 [monthlyScholarships]: /arcade/db/welcome-to-the-table/monthlyScholarships.sql
