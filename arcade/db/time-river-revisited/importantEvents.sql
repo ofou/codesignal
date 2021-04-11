@@ -1,7 +1,8 @@
-CREATE PROCEDURE importantEvents() BEGIN
-SELECT *
-FROM events
-ORDER BY CASE
+CREATE PROCEDURE importantEvents()
+BEGIN
+    SELECT *
+    FROM events
+    ORDER BY CASE
         WHEN weekday(event_date) = 0 THEN 0
         WHEN weekday(event_date) = 1 THEN 1
         WHEN weekday(event_date) = 2 THEN 2

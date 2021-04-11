@@ -1,5 +1,6 @@
-CREATE PROCEDURE soccerGameSeries() BEGIN
-SELECT (
+CREATE PROCEDURE soccerGameSeries()
+BEGIN
+    SELECT (
         CASE
             WHEN SUM(first_team_score) > SUM(second_team_score) THEN 1
             WHEN SUM(first_team_score) < SUM(second_team_score) THEN 2
@@ -39,8 +40,8 @@ SELECT (
                         END
                     )
                 END
-            ) # WHEN SUM(first_team_score) = SUM(second_team_score) THEN 1 ELSE 2
+            ) WHEN SUM(first_team_score) = SUM(second_team_score) THEN 1 ELSE 2
         END
     ) as winner
-FROM scores;
+    FROM scores;
 END

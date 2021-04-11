@@ -1,9 +1,9 @@
 CREATE PROCEDURE testCheck()
-SELECT id,
-    IF (
+SELECT id, 
+IF (
         given_answer IS NULL,
         "no answer",
-        IF(
+IF(
             given_answer = correct_answer,
             "correct",
             "incorrect"
