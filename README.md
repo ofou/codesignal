@@ -21,160 +21,162 @@ I'm also using [`leetcode`](https://github.com/ofou/leetcode), [`exercism`](http
 
 ## **Introduction**
 
-| Problem                  | Solution                   | Language |
-|--------------------------|----------------------------|----------|
-| add                      | [add]                      | python3  |
-| centuryFromYear          | [centuryFromYear]          | python3  |
-| checkPalindrome          | [checkPalindrome]          | python3  |
-| adjacentElementsProduct  | [adjacentElementsProduct]  | python3  |
-| shapeArea                | [shapeArea]                | python3  |
-| makeArrayConsecutive2    | [makeArrayConsecutive2]    | python3  |
-| almostIncreasingSequence | [almostIncreasingSequence] | python3  |
-| matrixElementsSum        | [matrixElementsSum]        | python3  |
-| allLongestStrings        | [allLongestStrings]        | python3  |
-| commonCharacterCount     | [commonCharacterCount]     | python3  |
-| isLucky                  | [isLucky]                  | python3  |
-| sortByHeight             | [sortByHeight]             | python3  |
-| reverseInParentheses     | [reverseInParentheses]     | python3  |
-| alternatingSums          | [alternatingSums]          | python3  |
+| Problem                  | Solution                   |
+| ------------------------ | -------------------------- |
+| add                      | [add]                      |
+| centuryFromYear          | [centuryFromYear]          |
+| checkPalindrome          | [checkPalindrome]          |
+| adjacentElementsProduct  | [adjacentElementsProduct]  |
+| shapeArea                | [shapeArea]                |
+| makeArrayConsecutive2    | [makeArrayConsecutive2]    |
+| almostIncreasingSequence | [almostIncreasingSequence] |
+| matrixElementsSum        | [matrixElementsSum]        |
+| allLongestStrings        | [allLongestStrings]        |
+| commonCharacterCount     | [commonCharacterCount]     |
+| isLucky                  | [isLucky]                  |
+| sortByHeight             | [sortByHeight]             |
+| reverseInParentheses     | [reverseInParentheses]     |
+| alternatingSums          | [alternatingSums]          |
 
 [add]: /arcade/intro/level-1/add.py
-[centuryFromYear]: /arcade/intro/level-1/centuryFromYear.py
-[checkPalindrome]: /arcade/intro/level-1/checkPalindrome.py
-[adjacentElementsProduct]: /arcade/intro/level-2/adjacentElementsProduct.py
-[shapeArea]: /arcade/intro/level-2/shapeArea.py
-[makeArrayConsecutive2]: /arcade/intro/level-2/makeArrayConsecutive2.py
-[almostIncreasingSequence]: /arcade/intro/level-2/almostIncreasingSequence.py
-[matrixElementsSum]: /arcade/intro/level-2/matrixElementsSum.py
-[allLongestStrings]: /arcade/intro/level-3/allLongestStrings.py
-[commonCharacterCount]: /arcade/intro/level-3/commonCharacterCount.py
-[isLucky]: /arcade/intro/level-3/isLucky.py
-[sortByHeight]: /arcade/intro/level-3/sortByHeight.py
-[reverseInParentheses]: /arcade/intro/level-3/reverseInParentheses.py
-[alternatingSums]: /arcade/intro/level-4/alternatingSums.py
+[centuryfromyear]: /arcade/intro/level-1/centuryFromYear.py
+[checkpalindrome]: /arcade/intro/level-1/checkPalindrome.py
+[adjacentelementsproduct]: /arcade/intro/level-2/adjacentElementsProduct.py
+[shapearea]: /arcade/intro/level-2/shapeArea.py
+[makearrayconsecutive2]: /arcade/intro/level-2/makeArrayConsecutive2.py
+[almostincreasingsequence]: /arcade/intro/level-2/almostIncreasingSequence.py
+[matrixelementssum]: /arcade/intro/level-2/matrixElementsSum.py
+[alllongeststrings]: /arcade/intro/level-3/allLongestStrings.py
+[commoncharactercount]: /arcade/intro/level-3/commonCharacterCount.py
+[islucky]: /arcade/intro/level-3/isLucky.py
+[sortbyheight]: /arcade/intro/level-3/sortByHeight.py
+[reverseinparentheses]: /arcade/intro/level-3/reverseInParentheses.py
+[alternatingsums]: /arcade/intro/level-4/alternatingSums.py
 
 ## **Databases**
 
-| Problem                  | Solution                   | Laguage |
-|:-------------------------|:---------------------------|:-------:|
-| projectList              | [projectList]              |  MySQL  |
-| countriesSelection       | [countriesSelection]       |  MySQL  |
-| monthlyScholarships      | [monthlyScholarships]      |  MySQL  |
-| projectsTeam             | [projectsTeam]             |  MySQL  |
-| automaticNotifications   | [automaticNotifications]   |  MySQL  |
-| volleyballResults        | [volleyballResults]        |  MySQL  |
-| mostExpensive            | [mostExpensive]            |  MySQL  |
-| contestLeaderboard       | [contestLeaderboard]       |  MySQL  |
-| gradeDistribution        | [gradeDistribution]        |  MySQL  |
-| mischievousNephews       | [mischievousNephews]       |  MySQL  |
-| suspectsInvestigation    | [suspectsInvestigation]    |  MySQL  |
-| suspectsInvestigation2   | [suspectsInvestigation2]   |  MySQL  |
-| securityBreach           | [securityBreach]           |  MySQL  |
-| testCheck                | [testCheck]                |  MySQL  |
-| expressionsVerification  | [expressionsVerification]  |  MySQL  |
-| newsSubscribers          | [newsSubscribers]          |  MySQL  |
-| countriesInfo            | [countriesInfo]            |  MySQL  |
-| itemCounts               | [itemCounts]               |  MySQL  |
-| usersByContinent         | [usersByContinent]         |  MySQL  |
-| movieDirectors           | [movieDirectors]           |  MySQL  |
-| travelDiary              | [travelDiary]              |  MySQL  |
-| soccerPlayers            | [soccerPlayers]            |  MySQL  |
-| marketReport             | [marketReport]             |  MySQL  |
-| websiteHacking           | [websiteHacking]           |  MySQL  |
-| nullIntern               | [nullIntern]               |  MySQL  |
-| legsCount                | [legsCount]                |  MySQL  |
-| combinationLock          | [combinationLock]          |  MySQL  |
-| interestClub             | [interestClub]             |  MySQL  |
-| personalHobbies          | [personalHobbies]          |  MySQL  |
-| booksCatalogs            | [booksCatalogs]            |  MySQL  |
-| habitatArea              | [habitatArea]              |  MySQL  |
-| orderOfSuccession        | [orderOfSuccession]        |  MySQL  |
-| orderingEmails           | [orderingEmails]           |  MySQL  |
-| placesOfInterest         | [placesOfInterest]         |  MySQL  |
-| soccerGameSeries         | [soccerGameSeries]         |  MySQL  |
-| correctIPs               | [correctIPs]               |  MySQL  |
-| validPhoneNumbers        | [validPhoneNumbers]        |  MySQL  |
-| importantEvents          | [importantEvents]          |  MySQL  |
-| dateFormatting           | [dateFormatting]           |  MySQL  |
-| pastEvents               | [pastEvents]               |  MySQL  |
-| netIncome                | [netIncome]                |  MySQL  |
-| alarmClocks              | [alarmClocks]              |  MySQL  |
-| companyEmployees         | [companyEmployees]         |  MySQL  |
-| scholarshipsDistribution | [scholarshipsDistribution] |  MySQL  |
-| userCountries            | [userCountries]            |  MySQL  |
-| placesOfInterestPairs    | [placesOfInterestPairs]    |  MySQL  |
-| localCalendar            | [localCalendar]            |  MySQL  |
-| routeLength              | [routeLength]              |  MySQL  |
-| currencyCodes            | [currencyCodes]            |  MySQL  |
-| coursesDistribution      | [coursesDistribution]      |  MySQL  |
-| nicknames                | [nicknames]                |  MySQL  |
-| tableSecurity            | [tableSecurity]            |  MySQL  |
+| Problem                  | Solution                   |
+| ------------------------ | -------------------------- |
+| projectList              | [projectList]              |
+| countriesSelection       | [countriesSelection]       |
+| monthlyScholarships      | [monthlyScholarships]      |
+| projectsTeam             | [projectsTeam]             |
+| automaticNotifications   | [automaticNotifications]   |
+| volleyballResults        | [volleyballResults]        |
+| mostExpensive            | [mostExpensive]            |
+| contestLeaderboard       | [contestLeaderboard]       |
+| gradeDistribution        | [gradeDistribution]        |
+| mischievousNephews       | [mischievousNephews]       |
+| suspectsInvestigation    | [suspectsInvestigation]    |
+| suspectsInvestigation2   | [suspectsInvestigation2]   |
+| securityBreach           | [securityBreach]           |
+| testCheck                | [testCheck]                |
+| expressionsVerification  | [expressionsVerification]  |
+| newsSubscribers          | [newsSubscribers]          |
+| countriesInfo            | [countriesInfo]            |
+| itemCounts               | [itemCounts]               |
+| usersByContinent         | [usersByContinent]         |
+| movieDirectors           | [movieDirectors]           |
+| travelDiary              | [travelDiary]              |
+| soccerPlayers            | [soccerPlayers]            |
+| marketReport             | [marketReport]             |
+| websiteHacking           | [websiteHacking]           |
+| nullIntern               | [nullIntern]               |
+| legsCount                | [legsCount]                |
+| combinationLock          | [combinationLock]          |
+| interestClub             | [interestClub]             |
+| personalHobbies          | [personalHobbies]          |
+| booksCatalogs            | [booksCatalogs]            |
+| habitatArea              | [habitatArea]              |
+| orderOfSuccession        | [orderOfSuccession]        |
+| orderingEmails           | [orderingEmails]           |
+| placesOfInterest         | [placesOfInterest]         |
+| soccerGameSeries         | [soccerGameSeries]         |
+| correctIPs               | [correctIPs]               |
+| validPhoneNumbers        | [validPhoneNumbers]        |
+| importantEvents          | [importantEvents]          |
+| dateFormatting           | [dateFormatting]           |
+| pastEvents               | [pastEvents]               |
+| netIncome                | [netIncome]                |
+| alarmClocks              | [alarmClocks]              |
+| companyEmployees         | [companyEmployees]         |
+| scholarshipsDistribution | [scholarshipsDistribution] |
+| userCountries            | [userCountries]            |
+| placesOfInterestPairs    | [placesOfInterestPairs]    |
+| localCalendar            | [localCalendar]            |
+| routeLength              | [routeLength]              |
+| currencyCodes            | [currencyCodes]            |
+| coursesDistribution      | [coursesDistribution]      |
+| nicknames                | [nicknames]                |
+| tableSecurity            | [tableSecurity]            |
+| restaurantInfo           | [restaurantInfo]           |
 
-[tableSecurity]: /arcade/db/table-metamorphoses/tableSecurity.sql
-[projectList]: /arcade/db/welcome-to-the-table/projectList.sql
-[countriesSelection]: /arcade/db/welcome-to-the-table/countriesSelection.sql
-[monthlyScholarships]: /arcade/db/welcome-to-the-table/monthlyScholarships.sql
-[projectsTeam]: /arcade/db/welcome-to-the-table/projectsTeam.sql
-[automaticNotifications]: /arcade/db/welcome-to-the-table/automaticNotifications.sql
-[volleyballResults]: /arcade/db/always-leave-table-in-order/volleyballResults.sql
-[mostExpensive]: /arcade/db/always-leave-table-in-order/mostExpensive.sql
-[contestLeaderboard]: /arcade/db/always-leave-table-in-order/contestLeaderboard.sql
-[gradeDistribution]: /arcade/db/always-leave-table-in-order/gradeDistribution.sql
-[mischievousNephews]: /arcade/db/always-leave-table-in-order/mischievousNephews.sql
-[suspectsInvestigation]: /arcade/db/would-you-like-the-second-meal/suspectsInvestigation.sql
-[suspectsInvestigation2]: /arcade/db/would-you-like-the-second-meal/suspectsInvestigation2.sql
-[securityBreach]: /arcade/db/would-you-like-the-second-meal/securityBreach.sql
-[testCheck]: /arcade/db/would-you-like-the-second-meal/testCheck.sql
-[expressionsVerification]: /arcade/db/would-you-like-the-second-meal/expressionsVerification.sql
-[newsSubscribers]: /arcade/db/would-you-like-the-second-meal/newsSubscribers.sql
-[countriesInfo]: /arcade/db/group-dishes-by-type/countriesInfo.sql
-[itemCounts]: /arcade/db/group-dishes-by-type/itemCounts.sql
-[usersByContinent]: /arcade/db/group-dishes-by-type/usersByContinent.sql
-[movieDirectors]: /arcade/db/group-dishes-by-type/movieDirectors.sql
-[travelDiary]: /arcade/db/group-dishes-by-type/travelDiary.sql
-[soccerPlayers]: /arcade/db/group-dishes-by-type/soccerPlayers.sql
-[marketReport]: /arcade/db/group-dishes-by-type/marketReport.sql
-[websiteHacking]: /arcade/db/time-for-tricks/websiteHacking.sql
-[nullIntern]: /arcade/db/time-for-tricks/nullIntern.sql
-[legsCount]: /arcade/db/time-for-tricks/legsCount.sql
-[combinationLock]: /arcade/db/time-for-tricks/combinationLock.sql
-[interestClub]: /arcade/db/specialties/interestClub.sql
-[personalHobbies]: /arcade/db/specialties/personalHobbies.sql
-[booksCatalogs]: /arcade/db/specialties/booksCatalogs.sql
-[habitatArea]: /arcade/db/specialties/habitatArea.sql
-[orderOfSuccession]: /arcade/db/when-was-it-the-case/orderOfSuccession.sql
-[orderingEmails]: /arcade/db/when-was-it-the-case/orderingEmails.sql
-[placesOfInterest]: /arcade/db/when-was-it-the-case/placesOfInterest.sql
-[soccerGameSeries]: /arcade/db/when-was-it-the-case/soccerGameSeries.sql
-[correctIPs]: /arcade/db/regular-paradise/correctIPs.sql
-[validPhoneNumbers]: /arcade/db/regular-paradise/validPhoneNumbers.sql
-[importantEvents]: /arcade/db/time-river-revisited/importantEvents.sql
-[dateFormatting]: /arcade/db/time-river-revisited/dateFormatting.sql
-[pastEvents]: /arcade/db/time-river-revisited/pastEvents.sql
-[netIncome]: /arcade/db/time-river-revisited/netIncome.sql
-[alarmClocks]: /arcade/db/time-river-revisited/alarmClocks.sql
-[companyEmployees]: /arcade/db/join-us-at-the-table/companyEmployees.sql
-[scholarshipsDistribution]: /arcade/db/join-us-at-the-table/scholarshipsDistribution.sql
-[userCountries]: /arcade/db/join-us-at-the-table/userCountries.sql
-[placesOfInterestPairs]: /arcade/db/join-us-at-the-table/placesOfInterestPairs.sql
-[localCalendar]: /arcade/db/join-us-at-the-table/localCalendar.sql
-[routeLength]: /arcade/db/join-us-at-the-table/routeLength.sql
-[currencyCodes]: /arcade/db/table-metamorphoses/currencyCodes.sql
-[coursesDistribution]: /arcade/db/table-metamorphoses/coursesDistribution.sql
+[restaurantinfo]: /arcade/db/table-metamorphoses/restaurantInfo.sql
+[tablesecurity]: /arcade/db/table-metamorphoses/tableSecurity.sql
+[projectlist]: /arcade/db/welcome-to-the-table/projectList.sql
+[countriesselection]: /arcade/db/welcome-to-the-table/countriesSelection.sql
+[monthlyscholarships]: /arcade/db/welcome-to-the-table/monthlyScholarships.sql
+[projectsteam]: /arcade/db/welcome-to-the-table/projectsTeam.sql
+[automaticnotifications]: /arcade/db/welcome-to-the-table/automaticNotifications.sql
+[volleyballresults]: /arcade/db/always-leave-table-in-order/volleyballResults.sql
+[mostexpensive]: /arcade/db/always-leave-table-in-order/mostExpensive.sql
+[contestleaderboard]: /arcade/db/always-leave-table-in-order/contestLeaderboard.sql
+[gradedistribution]: /arcade/db/always-leave-table-in-order/gradeDistribution.sql
+[mischievousnephews]: /arcade/db/always-leave-table-in-order/mischievousNephews.sql
+[suspectsinvestigation]: /arcade/db/would-you-like-the-second-meal/suspectsInvestigation.sql
+[suspectsinvestigation2]: /arcade/db/would-you-like-the-second-meal/suspectsInvestigation2.sql
+[securitybreach]: /arcade/db/would-you-like-the-second-meal/securityBreach.sql
+[testcheck]: /arcade/db/would-you-like-the-second-meal/testCheck.sql
+[expressionsverification]: /arcade/db/would-you-like-the-second-meal/expressionsVerification.sql
+[newssubscribers]: /arcade/db/would-you-like-the-second-meal/newsSubscribers.sql
+[countriesinfo]: /arcade/db/group-dishes-by-type/countriesInfo.sql
+[itemcounts]: /arcade/db/group-dishes-by-type/itemCounts.sql
+[usersbycontinent]: /arcade/db/group-dishes-by-type/usersByContinent.sql
+[moviedirectors]: /arcade/db/group-dishes-by-type/movieDirectors.sql
+[traveldiary]: /arcade/db/group-dishes-by-type/travelDiary.sql
+[soccerplayers]: /arcade/db/group-dishes-by-type/soccerPlayers.sql
+[marketreport]: /arcade/db/group-dishes-by-type/marketReport.sql
+[websitehacking]: /arcade/db/time-for-tricks/websiteHacking.sql
+[nullintern]: /arcade/db/time-for-tricks/nullIntern.sql
+[legscount]: /arcade/db/time-for-tricks/legsCount.sql
+[combinationlock]: /arcade/db/time-for-tricks/combinationLock.sql
+[interestclub]: /arcade/db/specialties/interestClub.sql
+[personalhobbies]: /arcade/db/specialties/personalHobbies.sql
+[bookscatalogs]: /arcade/db/specialties/booksCatalogs.sql
+[habitatarea]: /arcade/db/specialties/habitatArea.sql
+[orderofsuccession]: /arcade/db/when-was-it-the-case/orderOfSuccession.sql
+[orderingemails]: /arcade/db/when-was-it-the-case/orderingEmails.sql
+[placesofinterest]: /arcade/db/when-was-it-the-case/placesOfInterest.sql
+[soccergameseries]: /arcade/db/when-was-it-the-case/soccerGameSeries.sql
+[correctips]: /arcade/db/regular-paradise/correctIPs.sql
+[validphonenumbers]: /arcade/db/regular-paradise/validPhoneNumbers.sql
+[importantevents]: /arcade/db/time-river-revisited/importantEvents.sql
+[dateformatting]: /arcade/db/time-river-revisited/dateFormatting.sql
+[pastevents]: /arcade/db/time-river-revisited/pastEvents.sql
+[netincome]: /arcade/db/time-river-revisited/netIncome.sql
+[alarmclocks]: /arcade/db/time-river-revisited/alarmClocks.sql
+[companyemployees]: /arcade/db/join-us-at-the-table/companyEmployees.sql
+[scholarshipsdistribution]: /arcade/db/join-us-at-the-table/scholarshipsDistribution.sql
+[usercountries]: /arcade/db/join-us-at-the-table/userCountries.sql
+[placesofinterestpairs]: /arcade/db/join-us-at-the-table/placesOfInterestPairs.sql
+[localcalendar]: /arcade/db/join-us-at-the-table/localCalendar.sql
+[routelength]: /arcade/db/join-us-at-the-table/routeLength.sql
+[currencycodes]: /arcade/db/table-metamorphoses/currencyCodes.sql
+[coursesdistribution]: /arcade/db/table-metamorphoses/coursesDistribution.sql
 [nicknames]: /arcade/db/table-metamorphoses/nicknames.sql
 
 ## **The Core**
 
-| Problem        | Solution         | Language |
-|----------------|------------------|:--------:|
-| addTwoDigits   | [addTwoDigits]   |  Python  |
-| largestNumber  | [largestNumber]  |  Python  |
-| candies        | [candies]        |  Python  |
-| seatsInTheater | [seatsInTheater] |  Python  |
-| maxMultiple    | [maxMultiple]    |  Python  |
+| Problem        | Solution         |
+| -------------- | ---------------- |
+| addTwoDigits   | [addTwoDigits]   |
+| largestNumber  | [largestNumber]  |
+| candies        | [candies]        |
+| seatsInTheater | [seatsInTheater] |
+| maxMultiple    | [maxMultiple]    |
 
-[addTwoDigits]: arcade/python-arcade/intro-gates/addTwoDigits.py
-[largestNumber]: arcade/python-arcade/intro-gates/largestNumber.py
+[addtwodigits]: arcade/python-arcade/intro-gates/addTwoDigits.py
+[largestnumber]: arcade/python-arcade/intro-gates/largestNumber.py
 [candies]: arcade/python-arcade/intro-gates/candies.py
-[seatsInTheater]: arcade/python-arcade/intro-gates/seatsInTheater.py
-[maxMultiple]: arcade/python-arcade/intro-gates/maxMultiple.py
+[seatsintheater]: arcade/python-arcade/intro-gates/seatsInTheater.py
+[maxmultiple]: arcade/python-arcade/intro-gates/maxMultiple.py
