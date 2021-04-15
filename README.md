@@ -112,7 +112,9 @@ I'm also using [`leetcode`](https://github.com/ofou/leetcode), [`exercism`](http
 | restaurantInfo           | [restaurantInfo]           |
 | studentsInClubs          | [studentsInClubs]          |
 | emptyDepartments         | [emptyDepartments]         |
+| sunnyHolidays            | [sunnyHolidays]            |
 
+[sunnyholidays]: /arcade/db/selecting-what-to-select/sunnyHolidays.sql
 [emptydepartments]: /arcade/db/selecting-what-to-select/emptyDepartments.sql
 [studentsinclubs]: /arcade/db/selecting-what-to-select/studentsInClubs.sql
 [restaurantinfo]: /arcade/db/table-metamorphoses/restaurantInfo.sql
