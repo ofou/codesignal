@@ -110,7 +110,9 @@ I'm also using [`leetcode`](https://github.com/ofou/leetcode), [`exercism`](http
 | nicknames                | [nicknames]                |
 | tableSecurity            | [tableSecurity]            |
 | restaurantInfo           | [restaurantInfo]           |
+| studentsInClubs          | [studentsInClubs]          |
 
+[studentsinclubs]: /arcade/db/selecting-what-to-select/studentsInClubs.sql
 [restaurantinfo]: /arcade/db/table-metamorphoses/restaurantInfo.sql
 [tablesecurity]: /arcade/db/table-metamorphoses/tableSecurity.sql
 [projectlist]: /arcade/db/welcome-to-the-table/projectList.sql
