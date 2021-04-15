@@ -111,7 +111,9 @@ I'm also using [`leetcode`](https://github.com/ofou/leetcode), [`exercism`](http
 | tableSecurity            | [tableSecurity]            |
 | restaurantInfo           | [restaurantInfo]           |
 | studentsInClubs          | [studentsInClubs]          |
+| emptyDepartments         | [emptyDepartments]         |
 
+[emptydepartments]: /arcade/db/selecting-what-to-select/emptyDepartments.sql
 [studentsinclubs]: /arcade/db/selecting-what-to-select/studentsInClubs.sql
 [restaurantinfo]: /arcade/db/table-metamorphoses/restaurantInfo.sql
 [tablesecurity]: /arcade/db/table-metamorphoses/tableSecurity.sql
